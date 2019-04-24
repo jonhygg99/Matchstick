@@ -75,6 +75,7 @@ int main(int ac, char **ag)
     basic_t basic;
 
     if (ac < 3 || ac > 4) {
+        my_putstr("./matchstick [number_of_lines] [number_of_nims_by_turn]\n");
         return (84);
     } else if (my_atoi(ag[1]) >= 1 && my_atoi(ag[1]) <= 100 &&\
                 my_atoi(ag[2]) >= 1) {
