@@ -5,7 +5,7 @@
 ** 
 */
 
-#include "my.h"
+#include "../my.h"
 
 char *get_one_line(void)
 {

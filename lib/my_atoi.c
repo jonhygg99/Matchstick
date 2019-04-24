@@ -5,8 +5,6 @@
 ** char to int
 */
 
-#include "my.h"
-
 int my_atoi(char *str)
 {
     int nb = 0;
